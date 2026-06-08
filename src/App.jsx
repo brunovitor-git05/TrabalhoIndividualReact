@@ -11,7 +11,7 @@ function App() {
    if (login) {
     if (email === "bruno@gmail.com" && senha === "1234") {
       console.log("Login realizado com sucesso!");
-    } else if (email === "" && senha === "") {
+    } else if (email === "" || senha === "") {
       console.log("Preencha os campos de email e senha!");
     } else {
       console.log("Email ou senha incorretos!");
