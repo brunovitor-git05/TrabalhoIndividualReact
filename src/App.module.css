@@ -1,0 +1,100 @@
+
+.main {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.header {
+  background-color: #e00000;
+  padding: 16px 32px ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header h2 {
+  color: white;
+  margin: 0;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+}
+.header h3 {
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    display: flex;    
+    justify-content: right;
+    margin-top: -30px;
+}
+
+.card {
+  background-color: white;
+  padding: 60px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 10px ;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card h1 {
+  font-size: 22px;
+  text-align: center;
+  margin: 16px 0px 1px;
+  color: black;
+  width: 100%;
+}
+
+.card p {
+  text-align: center;
+  color: #555555;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+.botao {
+  background-color: #e00000;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+  margin-top: 16px;
+
+}
+
+.linkGrena {
+  color: #e00000;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.linkVermelho {
+  color: #e00000;
+  text-decoration: none;
+  font-size: 14px;
+}
