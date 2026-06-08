@@ -45,6 +45,7 @@ function App() {
             value={senha}
             onChange={(e) => setSenha(e.target.value)}
           />
+          
           <a className={styles.linkGrena} href="#">Esqueci minha senha</a>
 
           <button className={styles.botao} onClick={() => setLogin(true)}>Entrar</button>
