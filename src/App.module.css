@@ -6,29 +6,36 @@
   justify-content: center;
   align-items: center;
   }
-
 .header {
   background-color: #e00000;
-  padding: 16px 32px ;
+  padding: 8px 12px 20px;
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-.header h2 {
-  color: white;
-  margin: 0;
-  font-size: 30px;
-  display: flex;
-  justify-content: left;
-}
 .header h3 {
     color: white;
     margin: 0;
     font-size: 15px;
     display: flex;    
     justify-content: right;
-    margin-top: -30px;
+    margin-top: 5px;
+    margin-right: 8px;
+    
+}
+    
+
+.logo {
+  height: 24px;
+  width:auto;
+  margin-top: 8px;
+  margin-left: 8px;
+
 }
 
 .card {
@@ -45,29 +52,31 @@
 }
 
 .card h1 {
-  font-size: 22px;
+  font-size: 28px;
   text-align: center;
-  margin: 16px 0px 1px;
+  margin-top: 0;
   color: black;
   width: 100%;
+
 }
 
 .card p {
   text-align: center;
-  color: #555555;
+  color: #504c4c;
   margin-top: 0px;
   width: 100%;
 }
 
 .input {
   width: 100%;
-  padding: 20px;
-  border: 1px solid #ccc;
+  padding: 14px 12px;
+  border: 1px solid #000000;
   border-radius: 6px;
   font-size: 16px;
   box-sizing: border-box;
   background-color: white;
   color: black;
+
 }
 
 .botao {
@@ -87,7 +96,7 @@
 .linkGrena {
   color: #e00000;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   display: flex;
   justify-content: flex-end;
 }
@@ -96,4 +105,47 @@
   color: #e00000;
   text-decoration: none;
   font-size: 14px;
+}
+
+.botoesOAuth {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.botaoOAuth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  justify-content: center;
+}
+
+.botaoOAuth:hover {
+  background-color: #f5f5f5;
+}
+
+.logoOAuth {
+  height: 20px;
+  width: auto;
+}
+
+.separador {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #aaa;
+  font-size: 18px;
+}
+
+.linha {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
 }
